@@ -19,7 +19,7 @@ export async function POST(request: Request) {
 
     await transporter.sendMail({
       from: `"Temh Books" <${process.env.GMAIL_USER}>`,
-      to: "abobaloyi@gmail.com",
+      to: "temh8821@gmail.com",
       subject: `New Interest Registration — ${name}`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
